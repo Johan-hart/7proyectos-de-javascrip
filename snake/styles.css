@@ -2,7 +2,7 @@
     font-family: 'Share Tech Mono', monospace;
 }
 
-#board, .bordInfo {
+#board, .boardInfo {
     
     max-width: 500px;
 }
@@ -26,7 +26,7 @@
     margin-top: 10px
 }
 
-#satar {
+#start {
     background-color: #f35a69;
     border: none;
     color: white;
@@ -46,8 +46,10 @@
 
 .snakeSquare {
     background-color: #ccf47f;
+    border: 1px solid #000;
 }
 
 .foodSquare {
     background-color: #f35a69;
+    border: 1px solid #000;
 }
